@@ -1,0 +1,60 @@
+[
+    {
+      "codigo": "50170-0",
+      "foto": "./img/hankook H308.jpeg",
+      "tipo": "MACETA",
+      "marca": "POTTERYS",
+      "modelo": "MACETA",
+      "otro1": "1",
+      "otro2": "",
+      "cantidad": "4",
+      "precio": 17500
+    },
+    {
+      "codigo": "50174-3",
+      "foto": "./img/hankook H724.jpeg",
+      "tipo": "MACETA",
+      "marca": "POTTERYS",
+      "modelo": "MACETA",
+      "otro1": "2",
+      "otro2": "",
+      "cantidad": "4",
+      "precio": 26540
+    },
+    {
+      "codigo": "50595-1",
+      "foto": "./img/hankook MF47600.jpeg",
+      "tipo": "FLORERO",
+      "marca": "POTTERYS",
+      "modelo": "1",
+      "otro1": "FLORERO",
+      "otro2": "",
+      "cantidad": "4",
+      "precio": 39890
+    },
+    {
+      "codigo": "09076-K",
+      "foto": "./img/hankook MF54321.jpeg",
+      "tipo": "JARROS",
+      "marca": "POTTERYS",
+      "modelo": "1",
+      "otro1": "JARROS",
+      "otro2": "",
+      "cantidad": "4",
+      "precio": 59890
+    },
+    {
+      "codigo": "09030-1",
+      "foto": "./img/hankook MF55457.jpeg",
+      "tipo": "TABLITA",
+      "marca": "POTTERYS",
+      "modelo": "1",
+      "otro1": "TABLITA",
+      "otro2": "",
+      "cantidad": "5",
+      "precio": 57690
+    }
+    
+    
+   
+  ]

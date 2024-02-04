@@ -1,0 +1,15 @@
+.dropdown {
+    background-color: transparent;
+    .btn{
+        background-color: map-get($colores, color-1);
+        color: map-get($colores, color-6);
+        text-transform: uppercase;
+    }
+    .dropdown-menu {
+        background-color: map-get($colores, color-1);
+        .dropdown-item {
+            color: map-get($colores, color-6);
+            text-transform: uppercase;
+        }
+    }
+}

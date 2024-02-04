@@ -1,0 +1,265 @@
+
+/* Mixins Mobile */
+
+@mixin mobile ($min, $max) {
+    @media screen and (min-width: $min) and (max-width: $max) {
+    
+        @content;
+    }
+}
+
+/* 360px & 405px */
+@include mobile(360px, 405px) {
+    .header .header__contenedor .contenedor__logo .logo {
+        font-size: 32px;
+        margin: 15px;
+    }
+    .header .header__contenedor .contenedor__link .svg {
+        height: 25px;
+        width: 25px;
+    }
+    .header .header__contenedor .contenedor__carrito .svg {
+        height: 32px;
+        width: 32px;
+    }
+    .header .header__contenedor .contenedor__carrito #numerito {
+        bottom: 7px;
+    }
+    .carousel {
+        top: 69px;
+        
+    }
+    .carousel .carousel__foto {
+        width: 100%;
+        
+    }
+    .filtros {
+        margin: 110px 30px 30px 30px;
+    }
+    .carrito {
+        margin-top: 69px;
+        height: calc(90vh - 69px);
+        border-bottom: 1px solid map-get($colores, color-6);
+    }
+    .carrito #carritoContenedor {
+        height: calc(90vh - 250px);
+    }
+    .header .header__contenedor .contenedor__carrito {
+        margin: 30px;    
+    }
+    .footer .footer__contenedor .contenedor__formulario {
+        width: 80%;
+    }
+    .header .header__contenedor .contenedor__carrito {
+        margin: 0px 15px 0px 0px;
+    }
+    .header .header__contenedor .contenedor__link {
+        margin: 0px;
+    }
+    .footer .footer__contenedor {
+        padding-bottom: 20px;
+    }
+}
+
+/* 406px & 500px */
+@include mobile(406px, 500px) {
+    .header .header__contenedor .contenedor__logo .logo {
+        font-size: 36px;
+        margin: 15px;
+    }
+    .header .header__contenedor .contenedor__link .svg {
+        height: 30px;
+        width: 30px;
+    }
+    .header .header__contenedor .contenedor__carrito .svg {
+        height: 35px;
+        width: 35px;
+    }
+    .header .header__contenedor .contenedor__carrito #numerito {
+        bottom: 10px;
+    }
+    .carousel {
+        top: 74px;
+        aspect-ratio: 1.3/1;
+    }
+    .carousel .carousel__foto {
+        width: 100%;
+        aspect-ratio: 1.3/1;
+    }
+    .filtros {
+        margin: 110px 30px 30px 30px;
+    }
+    .carrito {
+        margin-top: 74px;
+        height: calc(90vh - 74px);
+        border-bottom: 1px solid map-get($colores, color-6);
+    }
+    .carrito #carritoContenedor {
+        height: calc(90vh - 250px);
+    }
+    .header .header__contenedor .contenedor__carrito {
+        margin: 30px;    
+    }
+    .footer .footer__contenedor .contenedor__formulario {
+        width: 80%;
+    }
+    .header .header__contenedor .contenedor__carrito {
+        margin: 0px 15px 0px 0px;
+    }
+    .header .header__contenedor .contenedor__link {
+        margin: 0px;
+    }
+    .footer .footer__contenedor {
+        padding-bottom: 20px;
+    }
+}
+
+/* 501px & 591px */
+@include mobile(501px, 591px) {
+    .header .header__contenedor .contenedor__logo .logo {
+        font-size: 36px;
+        margin: 15px;
+    }
+    .header .header__contenedor .contenedor__link .svg {
+        height: 30px;
+        width: 30px;
+    }
+    .header .header__contenedor .contenedor__carrito .svg {
+        height: 35px;
+        width: 35px;
+    }
+    .header .header__contenedor .contenedor__carrito #numerito {
+        bottom: 10px;
+    }
+    .carousel {
+        top: 74px;
+        aspect-ratio: 1.3/1;
+    }
+    .carousel .carousel__foto {
+        width: 100%;
+        aspect-ratio: 1.3/1;
+    }
+    .filtros {
+        margin: 100px 30px 30px 30px;
+    }
+    .carrito {
+        margin-top: 75px;
+        height: calc(100vh - 75px);
+    }
+    .carrito #carritoContenedor {
+        height: calc(100vh - 250px);
+    }
+    .header .header__contenedor .contenedor__carrito {
+        margin: 30px;    
+    }
+    .footer .footer__contenedor .contenedor__formulario {
+        width: 80%;
+    }
+    .header .header__contenedor .contenedor__carrito {
+        margin: 0px 15px 0px 0px;
+    }
+    .header .header__contenedor .contenedor__link {
+        margin: 0px;
+    }
+    .footer .footer__contenedor {
+        padding-bottom: 20px;
+    }
+}
+
+/* 592px & 701px */
+@include mobile(592px, 701px) {
+    .header .header__contenedor .contenedor__logo .logo {
+        font-size: 36px;
+        margin: 15px;
+    }
+    .header .header__contenedor .contenedor__link .svg {
+        height: 30px;
+        width: 30px;
+    }
+    .header .header__contenedor .contenedor__carrito .svg {
+        height: 35px;
+        width: 35px;
+    }
+    .header .header__contenedor .contenedor__carrito #numerito {
+        bottom: 10px;
+    }
+    .carousel {
+        top: 74px;
+        aspect-ratio: 1.3/1;
+    }
+    .carousel .carousel__foto {
+        width: 100%;
+        aspect-ratio: 1.3/1;
+    }
+    .filtros {
+        margin: 100px 30px 30px 30px;
+    }
+    .carrito {
+        margin-top: 75px;
+        height: calc(100vh - 75px);
+    }
+    .carrito #carritoContenedor {
+        height: calc(100vh - 250px);
+    }
+    .header .header__contenedor .contenedor__carrito {
+        margin: 0px 15px 0px 0px;
+    }
+    .footer .footer__contenedor .contenedor__formulario {
+        width: 80%;
+    }
+    .header .header__contenedor .contenedor__carrito {
+        margin: 0px;
+    }
+    .footer .footer__contenedor {
+        padding-bottom: 20px;
+    }
+}
+
+/* 702px & 1199px */
+@include mobile(702px, 1199px) {
+    .header .header__contenedor .contenedor__logo .logo {
+        font-size: 36px;
+        margin: 15px;
+    }
+    .header .header__contenedor .contenedor__link .svg {
+        height: 30px;
+        width: 30px;
+    }
+    .header .header__contenedor .contenedor__carrito .svg {
+        height: 35px;
+        width: 35px;
+    }
+    .header .header__contenedor .contenedor__carrito #numerito {
+        bottom: 10px;
+    }
+    .carousel {
+        top: 74px;
+        aspect-ratio: 1.3/1;
+    }
+    .carousel .carousel__foto {
+        width: 100%;
+        aspect-ratio: 1.3/1;
+    }
+    .filtros {
+        margin: 100px 30px 30px 30px;
+    }
+    .carrito {
+        margin-top: 75px;
+        height: calc(100vh - 75px);
+    }
+    .carrito #carritoContenedor {
+        height: calc(100vh - 250px);
+    }
+    .header .header__contenedor .contenedor__carrito {
+        margin: 0px 15px 0px 0px;
+    }
+    .footer .footer__contenedor .contenedor__formulario {
+        width: 80%;
+    }
+    .header .header__contenedor .contenedor__carrito {
+        margin: 0px;
+    }
+    .footer .footer__contenedor {
+        padding-bottom: 20px;
+    }
+}
